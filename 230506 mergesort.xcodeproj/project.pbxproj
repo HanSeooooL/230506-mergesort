@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4752CD72A07CE0F0027FA7D /* merge.c in Sources */ = {isa = PBXBuildFile; fileRef = A4752CD62A07CE0F0027FA7D /* merge.c */; };
+		A4752CD92A07CE1D0027FA7D /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A4752CD82A07CE1D0027FA7D /* test.c */; };
 		A4AAF12B2A06476800D2F08D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4AAF12A2A06476800D2F08D /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A4752CD52A07CE0F0027FA7D /* merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
+		A4752CD62A07CE0F0027FA7D /* merge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = merge.c; sourceTree = "<group>"; };
+		A4752CD82A07CE1D0027FA7D /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		A4AAF1272A06476800D2F08D /* 230506 mergesort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "230506 mergesort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AAF12A2A06476800D2F08D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				A4AAF12A2A06476800D2F08D /* main.c */,
+				A4752CD52A07CE0F0027FA7D /* merge.h */,
+				A4752CD62A07CE0F0027FA7D /* merge.c */,
+				A4752CD82A07CE1D0027FA7D /* test.c */,
 			);
 			path = "230506 mergesort";
 			sourceTree = "<group>";
@@ -119,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4752CD92A07CE1D0027FA7D /* test.c in Sources */,
+				A4752CD72A07CE0F0027FA7D /* merge.c in Sources */,
 				A4AAF12B2A06476800D2F08D /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
